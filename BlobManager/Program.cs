@@ -3,10 +3,9 @@ using Azure.Storage;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 
-const string blobServiceEndpoint = "https://mediastormh8ae.blob.core.windows.net/";
-const string storageAccountName = "mediastormh8ae";
-const string storageAccountKey =
-    "f7GREY+jevqmtY/2mpJWxUQLSEU/6k9aa/cmKohzSV1YUtz8WWSc9ao9XkeUwYahjZzGF9mmBw+S+ASteT4ogA==";
+const string blobServiceEndpoint = "https://mediastor7890.blob.core.windows.net/";
+const string storageAccountName = "mediastor7890";
+const string storageAccountKey = "[insert storage account key here]";
 
 StorageSharedKeyCredential accountCredentials = new StorageSharedKeyCredential(storageAccountName, storageAccountKey);
 
